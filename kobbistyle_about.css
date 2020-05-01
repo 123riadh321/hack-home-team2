@@ -1,0 +1,207 @@
+ html, body {
+     position: relative;
+      width: : 100%;
+    }
+    body {
+      background: white;
+      font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+      font-size: 14px;
+      color:#000;
+      margin: 0;
+      padding: 0;
+      width: 100%
+    }
+      header {
+      background: white;
+      width: 100%;
+      height: 100px;
+      display: inline-block;
+      z-index: 10;
+    }
+    header img {
+      display: inline-block;
+      width: 63px;
+      height: 84px;
+      transform: translate(10px,10px);
+    }
+    .search {
+      width: 300px;
+      height: 50px;
+      background-color: lightgray;
+      display: inline-block;
+      position: relative;
+      border: 1px solid white;
+      border-radius: 25px;
+      transform: translate(50px,-25px);
+    }
+
+    .search img {
+      float: right;
+      position: relative;
+      display: inline-block;
+      width: 25px;
+      height: 25px;
+    }
+    .input {
+      background: transparent;
+      border: none;
+      cursor: pointer;
+    }
+    #input1 {
+      font-size: 17px;
+      transform: translate(15px,5px);
+    }
+    #input2 {
+      transform: translate(100px,0px);
+    }
+    .info {
+      font-weight: 200;
+      display: inline-block;
+      margin: 30px;
+      padding: 10px;
+      font-size: 15px;
+      text-decoration: none;
+      color: gray;
+      transform: translate(300px,-30px);
+    }
+    .info h2 {
+      font-weight: 200;
+    }
+    .img {
+      float: right;
+      transform: translateX(-100px);
+    }
+    .side1,.side2{
+      width: 150px;
+      height: 500px;
+      display: inline-block;
+      position: fixed;
+      background: lightgray;
+      transform: translate(100px,125px);
+    }
+    .side1 h2 {
+      font-size: 20px;
+      transform: translate(15px,25px);
+    }
+    .side1 a,.side2 a {
+      text-decoration: none;
+    }
+    .side1 a h3 {
+      color: gray;
+      transform: translate(15px,20px);
+      font-weight: 400;
+      width: 100px;
+      margin: 18px 0px;
+    }
+    .side2 {
+      transform: translate(1100px,125px);
+      display: block;
+      
+    }
+    .side2 a h3 {
+      color: black;
+     font-size: 18px;
+      display: block;
+      margin: 25px;
+      transform: translateY(15px);
+      font-weight: 600;
+    }
+    .side2  p {
+      color: white;
+      text-align: center;
+      transform: translateY(135px);
+    }
+    .side2 img {
+      display: inline-block;
+      margin: 0;
+      padding: 0;
+      width: 100px;
+      transform: translate(25px,130px);
+    }
+    #all {
+      width: 700px;
+      display: inline-block;
+      position: absolute;
+      transform: translate(300px,120px);
+    }
+    #all h1 {
+      font-size: 50px;
+      font-weight: 500;
+      word-spacing: 3px;
+      text-align: left;
+      color: black;
+    }
+    #all p {
+      font-size: 20px;
+      text-align: left;
+      color: black;
+      margin: 30px;
+    }
+    .bg0 {
+      width: 800px;
+      height:400px;
+      display: inline-block;
+      box-shadow: 0 0 20px darkslategray;
+      transform: translateX(-25px);
+
+    }
+    .company {
+      display: inline-block;
+      width: 150px;
+      height: 100px;
+      background: transparent;
+      position: relative;
+      margin: 25px;
+      transform: translate(75px,75px);
+    }
+    .company img {
+      width: 100px;
+    }
+    #company1 {
+      transform: translate(-20px,75px);
+    }
+    #company0 {
+      transform: translate(50px,75px);
+    }
+    #company2{
+      transform: translate(115px,75px);
+    }
+    #detail {
+      background: snow;
+      color: gray;
+      font-size: 10px;
+      font-weight: 400;
+      display: none;
+      margin: 0;
+      transform: translate(100px,-190px);
+    }
+    .h2 {
+      font-size: 30px;
+      font-weight: 700;
+      color: dodgerblue;
+      text-align: center;
+      overflow-wrap: break-word;
+    }
+    #all a button {
+      background: transparent;
+      border: 1px solid black;
+      color: black;
+      font-size: 12px;
+      padding: 1px;
+      width: 150px;
+      text-align: center;
+      justify-content: center;
+      align-items: center;
+      float: center;
+      cursor: pointer;
+      transform: translate(275px,15px);
+    }
+    #all a button h2 {
+      font-weight: 200;
+    }
+    #all a button:hover {
+      color: white;
+      background: gray;
+      box-shadow: 0 0 10px gray;
+      border: none;
+    }
